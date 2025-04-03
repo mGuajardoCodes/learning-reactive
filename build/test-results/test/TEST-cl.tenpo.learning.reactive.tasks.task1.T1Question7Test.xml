@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task1.T1Question7Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-03T14:18:33" hostname="MARGUA0225M" time="0.016">
+  <properties/>
+  <testcase name="PREGUNTA 7 - User Account" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question7Test" time="0.016"/>
+  <system-out><![CDATA[[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mr.M.P.24?[0;39m - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber) 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mr.M.P.24?[0;39m - | request(unbounded) 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question7?[0;39m - Fetching user with id: 123 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question7?[0;39m - Fetching account for user id: 123 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question7?[0;39m - Successfully retrieved UserAccount: UserAccount[user=User[id=123, name=Miguel], account=Account[accountId=ACC-123, userId=123, balance=150000.0]] 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mr.M.P.24?[0;39m - | onNext(UserAccount[user=User[id=123, name=Miguel], account=Account[accountId=ACC-123, userId=123, balance=150000.0]]) 
+[Test worker] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mr.M.P.24?[0;39m - | onComplete() 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

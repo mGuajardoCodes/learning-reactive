@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task1.T1Question2Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-03T14:18:29" hostname="MARGUA0225M" time="0.024">
+  <properties/>
+  <testcase name="PREGUNTA 2C - Francia es el segundo país" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question2Test" time="0.014"/>
+  <testcase name="PREGUNTA 2B - Argentina es el quinto país" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question2Test" time="0.003"/>
+  <testcase name="PREGUNTA 2A - Primeros 5 paises son repetidos" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question2Test" time="0.004"/>
+  <system-out><![CDATA[[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Starting question2C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.8?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.8?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.8?[0;39m - onNext(Argentina) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Finished question2C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.8?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Starting question2B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onNext(Peru) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onNext(Chile) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onNext(Ecuador) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onNext(Peru) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onNext(Argentina) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Finished question2B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.9?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Starting question2A 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onNext(Peru) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onNext(Argentina) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onNext(Chile) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onNext(Ecuador) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onNext(Brasil) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question2?[0;39m - Finished question2A 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.10?[0;39m - onComplete() 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-04-03T14:18:29" hostname="MARGUA0225M" time="0.585">
+  <properties/>
+  <testcase name="PREGUNTA 5B - Los cálculos salen bien" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.198"/>
+  <testcase name="PREGUNTA 5B - Los cálculos retornan vacío" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.114"/>
+  <testcase name="PREGUNTA 5B - Los cálculos salen mal" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.03"/>
+  <testcase name="PREGUNTA 5A - Los cálculos salen bien" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.11"/>
+  <testcase name="PREGUNTA 5A - Los cálculos retornan vacío" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.106"/>
+  <testcase name="PREGUNTA 5A - Los cálculos salen mal" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question5Test" time="0.024"/>
+  <system-out><![CDATA[[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5B: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - onNext(Miguel) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - onNext(Juan) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - onNext(María) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.18?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5B: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - onNext(Miguel) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - onNext(Juan) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - onNext(María) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.19?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5B: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.20?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.20?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Question5B encountered an error during calculation: oops 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.20?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.21?[0;39m - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.21?[0;39m - | request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5A: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5A with result: Juan 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.21?[0;39m - | onNext(Juan) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.21?[0;39m - | onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.22?[0;39m - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.22?[0;39m - | request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5A: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5A with result: Juan 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.22?[0;39m - | onNext(Juan) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.22?[0;39m - | onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.23?[0;39m - | onSubscribe([Fuseable] MonoPeekTerminal.MonoTerminalPeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.23?[0;39m - | request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Starting question5A: processing numbers 100 to 1000 
+[Test worker] 2025-04-03 11:18:29 ?[1;31mERROR?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Question5A encountered an error during calculation: oops 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question5?[0;39m - Finished question5A with result: Chuck Norris 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.23?[0;39m - | onNext(Chuck Norris) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.M.P.23?[0;39m - | onComplete() 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

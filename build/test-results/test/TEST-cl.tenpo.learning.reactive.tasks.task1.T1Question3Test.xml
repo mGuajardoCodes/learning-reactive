@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-04-03T14:18:29" hostname="MARGUA0225M" time="0.033">
+  <properties/>
+  <testcase name="PREGUNTA 3C - Todos los países tienen traducción" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.014"/>
+  <testcase name="PREGUNTA 3C - Al menos un país no tiene traducción" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.003"/>
+  <testcase name="PREGUNTA 3B - Monedas de Argentina" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.003"/>
+  <testcase name="PREGUNTA 3A - Page tiene elementos" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.006"/>
+  <testcase name="PREGUNTA 3A - Page no tiene elementos" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.002"/>
+  <testcase name="PREGUNTA 3A - Page es nulo" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question3Test" time="0.002"/>
+  <system-out><![CDATA[[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - onNext(Argentina) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - onNext(Brasil) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - onNext(Suiza) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.11?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.12?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.12?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.12?[0;39m - onNext(Argentina) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.12?[0;39m - onNext(Suiza) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3C 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.12?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3B for country: Argentina 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.F.P.13?[0;39m - | onSubscribe([Fuseable] FluxPeekFuseable.PeekFuseableSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.F.P.13?[0;39m - | request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.F.P.13?[0;39m - | onNext(ARS) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.F.P.13?[0;39m - | onNext(USD) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3B 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.F.P.13?[0;39m - | onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3A for page: Page[items=[elem1, elem2, elem3, elem4]] 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onNext(elem1) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onNext(elem2) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onNext(elem3) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onNext(elem4) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3A 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.14?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3A for page: Page[items=[]] 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.15?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.15?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3A 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.15?[0;39m - onComplete() 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Starting question3A for page: null 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.16?[0;39m - onSubscribe(FluxPeek.PeekSubscriber) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.16?[0;39m - request(unbounded) 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question3?[0;39m - Finished question3A 
+[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mr.Flux.Peek.16?[0;39m - onComplete() 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

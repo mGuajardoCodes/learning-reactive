@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cl.tenpo.learning.reactive.tasks.task1.T1Question6Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-03T14:18:29" hostname="MARGUA0225M" time="3.531">
+  <properties/>
+  <testcase name="PREGUNTA 6 - Stock Prices" classname="cl.tenpo.learning.reactive.tasks.task1.T1Question6Test" time="3.531"/>
+  <system-out><![CDATA[[Test worker] 2025-04-03 11:18:29 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Starting question6: flux subscribed 
+[parallel-1] 2025-04-03 11:18:30 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 208.0 
+[parallel-1] 2025-04-03 11:18:30 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 277.0 
+[parallel-1] 2025-04-03 11:18:31 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 352.0 
+[parallel-1] 2025-04-03 11:18:31 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 431.0 
+[parallel-1] 2025-04-03 11:18:32 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 46.0 
+[parallel-1] 2025-04-03 11:18:32 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 260.0 
+[parallel-1] 2025-04-03 11:18:33 ?[34mINFO ?[0;39m ?[36mc.t.l.r.t.t.T1Question6?[0;39m - Question6 emitted price: 47.0 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
